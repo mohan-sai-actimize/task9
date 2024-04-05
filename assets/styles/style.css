@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+#logo{
+    min-height :90px;
+}
+#sale{
+    letter-spacing: 5px;
+    min-height: 70px;
+}
+.btn{
+    border-radius: 0px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn:active{
+    background-color: black;
+    color: white;
+}
+#swiper-body{
+    height: 400px;
+}
+.swiper-container {
+    overflow: hidden;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.swiper-slide:hover{
+    cursor: pointer;
+}
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 0;
+}
+.swiper-pagination-bullet-active {
+    background-color: #000;
+}
+.card{
+    transition: 0.5s;
+}
+.card:hover{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 25px black;
+}
+/* .swiper-navigation{
+    height: 100px;
+} */
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: 1.5px solid #000000aa;
+    border-radius: 3px;
+    padding: 40px 20px 40px 20px;
+    font-size: 20px;
+    transition: 0.4s;
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 1.5px solid #ffffff;
+}
